@@ -1,4 +1,4 @@
-package com.tushartambe.aoc.day1;
+package com.tushartambe.aoc.challanges;
 
 import com.tushartambe.aoc.annotation.Day;
 import com.tushartambe.aoc.util.AocUtil;
@@ -12,13 +12,13 @@ import java.util.TreeSet;
 public class CalorieCounting {
 
     public void partOne() throws FileNotFoundException {
-        var file = AocUtil.getInputFile("day1/input.txt", this.getClass());
+        var file = AocUtil.getInputFile("day1.txt", this.getClass());
         var treeSet = getCaloriesInSortedOrder(file);
         System.out.println("Max Calories : " + treeSet.first());
     }
 
     public void partTwo() throws FileNotFoundException {
-        var file = AocUtil.getInputFile("day1/input.txt", this.getClass());
+        var file = AocUtil.getInputFile("day1.txt", this.getClass());
 
         var treeSet = getCaloriesInSortedOrder(file);
 

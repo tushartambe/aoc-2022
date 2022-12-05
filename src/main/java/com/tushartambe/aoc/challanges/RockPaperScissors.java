@@ -1,4 +1,4 @@
-package com.tushartambe.aoc.day2;
+package com.tushartambe.aoc.challanges;
 
 import com.tushartambe.aoc.annotation.Day;
 import com.tushartambe.aoc.util.AocUtil;
@@ -83,7 +83,7 @@ public class RockPaperScissors {
 
     public static void main(String[] args) throws FileNotFoundException {
         RockPaperScissors rockPaperScissors = new RockPaperScissors();
-        List<String> inputFile = AocUtil.getInputFile("day2/input.txt", rockPaperScissors.getClass());
+        List<String> inputFile = AocUtil.getInputFile("day2.txt", rockPaperScissors.getClass());
         rockPaperScissors.partOne(inputFile);
         rockPaperScissors.partTwo(inputFile);
     }
